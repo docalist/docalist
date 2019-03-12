@@ -1,7 +1,8 @@
 Docalist/docalist
 =================
 
-Main repository for docalist's plugins.
-
-- [Issue tracker](https://github.com/docalist/docalist/issues)
-- [Wiki](https://github.com/docalist/docalist/wiki)
+Un metapackage composer pour installer les plugins Docalist de base :
+- docalist-core
+- docalist-data
+- docalist-search
+- docalist-reset-screen-options

@@ -1,0 +1,36 @@
+{
+	"type": "metapackage",
+	"name": "docalist/docalist",
+	"description": "Composer metapackage with Docalist base plugins.",
+    "homepage": "https://docalist.org/",
+	"license": "GPL-2.0-or-later",
+
+	"authors": [ 
+        {
+            "name": "Daniel Ménard",
+            "email": "daniel.menard@laposte.net",
+            "homepage": "https://docalist.org/"
+        }
+    ],
+
+	"keywords": [
+		"docalist"
+	],
+    
+    "support": {
+        "issues": "https://github.com/docalist/docalist/issues",
+        "forum": "https://groups.google.com/forum/#!forum/docalist-discuss"
+    },
+    
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "3.0-dev"
+        }
+    },
+	"require": {
+		"docalist/docalist-core": "^3.0-dev",
+		"docalist/docalist-data": "^3.0-dev",
+		"docalist/docalist-search": "^3.0-dev",
+		"docalist/docalist-reset-screen-options": "^1.0-dev"
+	}
+}
