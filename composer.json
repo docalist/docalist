@@ -24,13 +24,13 @@
     
     "extra" : {
         "branch-alias" : {
-            "dev-master" : "3.1-dev"
+            "dev-master" : "4.0-dev"
         }
     },
 	"require": {
-		"docalist/docalist-core": "3.1.2",
-		"docalist/docalist-data": "3.0.2",
-		"docalist/docalist-search": "3.1.0",
+		"docalist/docalist-core": "3.2.0",
+		"docalist/docalist-data": "4.0.0",
+		"docalist/docalist-search": "4.0.0",
 		"docalist/docalist-reset-screen-options": "1.0.0"
 	}
 }
